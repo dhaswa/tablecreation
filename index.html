@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title> Table Creation</title>
+        <style>
+        table,th,td{
+            border-collapse:collapse;
+            border:1px solid red;
+        }
+        </style>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <thead>           
+                <th>State of health</th>
+                <th colspan="3">Fasting Value</th>
+                <th>After Remaining</th>
+                </thead>
+            </tr>
+        <thead>
+            <tr>
+                <th></th>
+                <th colspan="2">Minimum</th>
+                <th>Normal</th>
+                <th>2 hours of Eating</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td> healthy</td>
+                <td colspan="2">70</td>
+                <td>100</td>
+                <td>Less than 140</td>
+            </tr>
+            <tr>
+                <td> Pre-Diabetes</td>
+                <td colspan="2">101</td>
+                <td>126</td>
+                <td>140 to 200</td>
+            </tr>
+            <tr>
+                <td>Diabetes</td>
+                <td colspan="2">more than 126</td>
+                <td>Not Applicable</td>
+                <td>More than 200</td>
+            </tr>
+        </tbody>
+        </table>
+    </body>
+</html>
